@@ -10,7 +10,7 @@ class Title extends Component {
   }
 }
 
-Title.proptype = {
+Title.proTypes = {
   headline: PropTypes.string.isRequired,
 };
 
