@@ -11,11 +11,10 @@ class SolarSystem extends Component {
       planetImage={ image }
     />));
     return (
-      <>
-        <div data-testid="solar-system">SolarSystem</div>
+      <div data-testid="solar-system">
         <Title headline="Planetas" />
         {todosOsPlanetas}
-      </>
+      </div>
     );
   }
 }
